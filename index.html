@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website -katy`s </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7474af690d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+               <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>    
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB Developer</p>
+                <h1>Hi, I'm <span>Krashankant</span> <br> Web Developer and <br> Programmar</h1>
+
+
+            </div>
+        </div>
+    </div>
+<!-----------------------------------------About--------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class ="about-col-1">
+                    <img src="images/userr.jpg" >
+                </div>    
+                <div class="about-col-2">
+                   <h1 class="sub-title">About Me</h1>
+                   <p>
+                    My name is Krishnakant, and I am a dedicated web developer and programmer. Currently, I am pursuing a degree in mechanical engineering at Jabalpur Engineering College. Despite my primary focus being on mechanical engineering, my passion for technology and coding led me to delve into web development. I have honed my skills in programming languages such as HTML, CSS, JavaScript, and Java, enabling me to create visually appealing and interactive websites. By combining my knowledge of mechanical engineering principles with my expertise in web development, I aim to develop innovative and practical digital solutions. I am committed to continuous learning and staying updated with the latest trends in the industry to deliver high-quality results.
+                   </p>
+
+                   <div class="tab-titles">
+                       <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                       <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                       <p class="tab-links" onclick="opentab('Education')">Education</p>
+                   </div>
+                   <div class="tab-contests active-tab" id="Skills">
+                     <ul>
+                        <li><span>UI/UX </span><br>Designing web/app interfaces</li>
+                        <li><span>Web Development </span><br>Web App Development</li>
+                        <li><span>Language/Programmaing </span><br> Java, Data Structure, HTML, CSS ,JS</li>
+                     </ul>
+                   </div>
+                   <div class="tab-contests" id="Experience">
+                    <ul>
+                       <li><span>2021-current</span><br>Designing web/app interfaces</li>
+                       <li><span>2021-2022</span><br>Team lead at StartApp LLC.</li>
+                       <li><span>2022-2023 </span><br>Web Development Executive at coding ninja.</li>
+                       <li><span>2022</span><br>trainning at West Central Railway</li>
+                    </ul> 
+                  </div>
+                  <div class="tab-contests" id="Education">
+                    <ul>
+                       <li><span>2022-current</span><br> web/app Trainning at Coding ninja</li>
+                       <li><span>2020-2024</span><br> B.Tech in Mechanical Engineering from JEC Jabalpur</li>
+                       <li><span>2020-2024</span><br>Jabalpur Engineering College</li>
+                    </ul>
+                </div>
+                </div>               
+
+            </div>
+
+        </div>
+    </div>
+
+<!---------------------------------------------------my services-------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design is the process of creating and arranging visual elements, layout, and user interface to design appealing and functional websites that effectively communicate information and engage users..</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX design refers to the practice of creating intuitive and visually appealing user interfaces that provide seamless and enjoyable experiences. It involves understanding user needs, designing interfaces, and optimizing usability to enhance overall user satisfaction.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design involves creating visually appealing and user-friendly interfaces for mobile applications, while app development is the process of coding and programming the functionalities of the app, bringing the design to life and making it functional and interactive for users.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>learn more</a>
+                </div>
+            </div>
+        </div>   
+    </div>
+<!--------------------------------------------portfolio------------------------------->
+
+
+
+    <div id="Portfolio">
+        <div class="container">
+           <h1 class="sub-title">My Work</h1>
+           <div class="work-list">
+            <div class="Work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3> Moving Car Animation</h3>
+                    <p>I created a project featuring a moving car animation on a road. The animation showcased a car moving along a road, simulating a realistic driving experience</p>
+                    <a href="https://github.com/krashankant-036"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="Work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3> Music App</h3>
+                    <p>Immerse yourself in the world of music with our innovative music app. Explore a vast library, discover new artists, and enjoy a seamless and personalized listening experience anytime, anywhere.</p>
+                    <a href="https://github.com/krashankant-036"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="Work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3> Figma! Landing Page </h3>
+                    <p>i created a landing page using Figma, where I utilized my frontend skills to design and develop a visually appealing and functional webpage that effectively promotes a product or service</p>
+                    <a href="https://github.com/krashankant-036"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+           </div> 
+           <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!------------------------contact----------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>conatact@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                         <a href="https://www.facebook.com/profile.php?id=100011681947765&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                         <a href="https://twitter.com/Abhishe12789971?t=BsQehlPeILONmXfgx01gKA&s=08"><i class="fa-brands fa-twitter"></i></a>
+                         <a href="https://instagram.com/katy__6582?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a>
+                         <a href="https://www.linkedin.com/in/krashankant-khangar-13a4b1204 "><i class="fa-brands fa-linkedin"></i></a>  
+                         <a href="https://github.com/krashankant-036"><i class="fa-brands fa-github"></i></a>                   
+                    </div>
+                    <a href="images/Krashankant Cv,. (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright @katy made with <i class="fa-sharp fa-solid fa-heart"></i> by me</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+         var tablinks = document.getElementsByClassName("tab-links");
+         var tabcontests = document.getElementsByClassName("tab-contests") ;
+
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontest of tabcontests){
+                tabcontest.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+         
+         
+    </script>
+    <script>
+        var sidemeu  = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right ="0";
+        }
+        function closemenu() {
+            sidemeu.style.right ="-200px";
+        }
+        
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwtXFpd4wtvxwLaRU19ejKQIwaveSVCKWHZ1laM9Fu9J19lyOGE8j2UKBdjnvXgZdFL/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML = "Message sent Successfully"
+                                setTimeout(function(){
+                                    msg.innerHTML= ""
+                                },5000)
+                                form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
